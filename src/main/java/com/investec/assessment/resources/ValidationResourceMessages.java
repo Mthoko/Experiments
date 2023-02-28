@@ -11,7 +11,7 @@ import validations.UserModelValidator;
 
 public class ValidationResourceMessages<T> {
 
-  private T objectTobeValidated;
+  private final T objectTobeValidated;
 
   public ValidationResourceMessages(T objectTobeValidated) {
     this.objectTobeValidated = objectTobeValidated;
